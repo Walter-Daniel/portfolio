@@ -1,5 +1,6 @@
-import { Col, Divider, Progress, Row, Typography } from 'antd';
+import { Col, Progress, Row, Typography } from 'antd';
 const { Text} = Typography;
+import img from '../../assets/foto-curriculo.jpg'
 
 export const About = () => {
   return (
@@ -10,7 +11,7 @@ export const About = () => {
                     <Col  xs={24} lg={12} >
                         <div className='container-fluid'>
                             <picture className='img-curriculo'>
-                                <img src='../../assets/foto-curriculo.jpg' />  
+                                <img src={img} />  
                             </picture>
                             <p>Estudiante de la carrera Programador Universiatario en la UNT. Siempre con ganas de aprender, soy proactivo, amante de la tecnologia, fotografías y de la naturaleza.</p>              
                         </div>

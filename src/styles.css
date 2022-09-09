@@ -493,12 +493,7 @@ background: var(--color-6);
 
 
 /* Card PRoduct******************************************************* */
-.card-product {
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-padding-top: 2rem;
-}
+
 
 /*  SHOP******************************/
 
@@ -656,11 +651,13 @@ color: var(--color-2);
 }
 
 .img-curriculo {
-  height: 5rem; 
+  display: flex;
+  justify-content: center;
 }
 
 .img-curriculo img{
   height: 30rem;
+  border-style: inset;
 }
 @media (min-width: 768px) { 
   .img-curriculo img{
@@ -692,3 +689,42 @@ color: var(--color-2);
 .bg-education {
   background-color: var(--color-white);
 }
+
+/*********** PORTFOLIO ***********/
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+.ant-card-cover img {
+  height: 250px;
+}
+.ant-card {
+  background-color: var(--color-2);
+  color: var(--main-color);
+}
+.ant-card-meta-title {
+  color: var(--main-color);
+}
+
+/*********** FOOTER ***********/
+.ant-layout-footer {
+  background-color: var(--color-2);
+  color: var(--main-color);
+}
+ul {
+  list-style-type: none;
+}
+a img {
+  height: 3rem;
+}
+.footer-icon ul {
+  display: flex;
+  justify-content: center;
+}
+.footer-icon ul li {
+  padding: 0 1rem 1rem 0;
+}
+

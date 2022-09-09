@@ -13,7 +13,7 @@ export const About = () => {
                             <picture className='img-curriculo'>
                                 <img src={img} />  
                             </picture>
-                            <p>Estudiante de la carrera Programador Universiatario en la UNT. Siempre con ganas de aprender, soy proactivo, amante de la tecnologia, fotografías y de la naturaleza.</p>              
+                            <p>Soy un estudiante de la carrera "Programador Universiatario" en la UNT. Mis mayores fortalezas son las ganas de aprender y la paciencia, soy amante de la tecnología, fotografías, de la naturaleza y de las reuniones con amigos.</p>              
                         </div>
                     </Col>
                     <Col xs={24} lg={12} >
@@ -33,9 +33,9 @@ export const About = () => {
                                 <Text>Ant Design</Text>
                                 <Progress percent={45} />
                                 <Text>Node JS</Text>
-                                <Progress percent={50} />
+                                <Progress percent={40} />
                                 <Text>GitHub</Text>
-                                <Progress percent={45} />
+                                <Progress percent={40} />
                             </div>
                         </div>
                     </Col>

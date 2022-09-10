@@ -7,13 +7,15 @@ export const About = () => {
     <>
         <div className='bg-about'>
             <div className="section container-fluid">
+                   <h2>Acerca de mi</h2> 
                 <Row >
                     <Col  xs={24} lg={12} >
                         <div className='container-fluid'>
                             <picture className='img-curriculo'>
                                 <img src={img} />  
                             </picture>
-                            <p>Soy un estudiante de la carrera "Programador Universiatario" en la UNT. Mis mayores fortalezas son las ganas de aprender y la paciencia, soy amante de la tecnología, fotografías, de la naturaleza y de las reuniones con amigos.</p>              
+                            <br />
+                            <p>Soy un estudiante de la carrera "Programador Universiatario" en la UNT. Mis mayores fortalezas son mi paciencia y mi empeño en aprender, cada paso aunque pequeño sea, es un avance y eso me motiva a desempeñarme cada día mejor en mi disciplina. Soy amante de la tecnología, fotografías, de la naturaleza y de las reuniones con amigos.</p>              
                         </div>
                     </Col>
                     <Col xs={24} lg={12} >

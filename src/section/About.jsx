@@ -15,7 +15,7 @@ export const About = () => {
                                 <img src={img} />  
                             </picture>
                             <br />
-                            <p>Soy un estudiante de la carrera "Programador Universiatario" en la UNT. Mis mayores fortalezas son mi paciencia y mi empeño en aprender, cada paso aunque pequeño sea, es un avance y eso me motiva a desempeñarme cada día mejor en mi disciplina. Soy amante de la tecnología, fotografías, de la naturaleza y de las reuniones con amigos.</p>              
+                            <p>Soy un estudiante de la carrera "Programador Universiatario" en la UNT. Mis mayores fortalezas son mi paciencia y mi empeño en aprender. Cada paso, aunque pequeño que sea, es un avance y eso me motiva a desempeñarme cada día mejor en mi disciplina. Soy amante de la tecnología, fotografías, de la naturaleza y de las reuniones con amigos.</p>              
                         </div>
                     </Col>
                     <Col xs={24} lg={12} >

@@ -5,7 +5,7 @@ import img from '../../assets/foto-curriculo.jpg'
 export const About = () => {
   return (
     <>
-        <div className='bg-about'>
+        <div className='bg-about' id='about'>
             <div className="section container-fluid">
                    <h2>Acerca de mi</h2> 
                 <Row >

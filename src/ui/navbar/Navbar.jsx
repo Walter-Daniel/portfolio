@@ -25,7 +25,7 @@ export const Navbar = () => {
         <div className="mobileHidden">
           <Anchor targetOffset="65">
             <Link href="#about" title="Acerca de mí" />
-            <Link href="#studies" title="Estudios" />
+            <Link href="#education" title="Estudios" />
             <Link href="#portfolio" title="Portfolio" />
           
           </Anchor>

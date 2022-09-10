@@ -8,7 +8,7 @@ export const Education = () => {
             return <Tag color="geekblue">{text}</Tag>}
 
   return (
-    <div className='bg-education'>
+    <div className='bg-education' id='education'>
       <div className='container-fluid'>
         <h2>Educación</h2>
         <Row>

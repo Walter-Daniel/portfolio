@@ -34,10 +34,12 @@ h2 {
 .mainLayout .ant-layout-header {
   background: var(--color-5);
   padding: 0;
-  height: auto;
   line-height: 1.6;
-}
   
+}
+.ant-layout-header {
+  height: 6rem;
+}
 p {
     font-size: 16px;
     line-height: 1.6;
@@ -112,7 +114,7 @@ header
   }
 }
 header.ant-layout-header {
-  background-color: var(--color-white);
+  background-color: var(--color-2);
 }
 .header .logo {
   font-size: 22px;
@@ -139,6 +141,12 @@ header.ant-layout-header {
 
 .logo h1 {
   color: var(--color-white);
+}
+.logo {
+  height: 7rem;
+}
+.logo img {
+  height: 100%;
 }
 
 .header .ant-anchor-wrapper {
@@ -254,15 +262,15 @@ header.ant-layout-header {
   } 
 }
 .ant-drawer-title {
-  color: var(--color-2);
+  color: var(--color-white);
   text-transform: uppercase;
   text-align: end;
   font-size: 24px;
 }
 
-/* .anticon svg {
+ .anticon svg {
   color: #fff;
-} */
+} 
 
 
 .item-login-logout {
@@ -401,12 +409,12 @@ width: 90%;
   /* position: absolute;
   color: #fafafa; */
 }
-/* .ant-drawer-header {
-  background: var(--color-5);
+.ant-drawer-header {
+  background: var(--color-2);
 }
 .ant-drawer-content {
-  background: var(--color-5);
-} */
+  background: var(--color-2);
+}
 .heroText h1 {
   font-size: 3rem;
   color: black;
@@ -584,14 +592,6 @@ text-align: center;
 font-size: 22px;
 text-transform: uppercase;
 margin: 0 0 20px;
-}
-.logo {
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.logo img {
-height: 2.5rem;
 }
 
 .footer .fas {

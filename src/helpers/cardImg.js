@@ -6,6 +6,7 @@ import blackjack from '../../assets/blackjack.jpg';
 import github from '../../assets/github.png';
 import instagram from '../../assets/instagram.png';
 import linkedin from '../../assets/linkedin.png';
+import logo from '../../assets/LogoMakr-2fFIWP.png'
 
 export default {
     gif,
@@ -15,5 +16,6 @@ export default {
     blackjack,
     github,
     linkedin,
-    instagram
+    instagram,
+    logo
 }

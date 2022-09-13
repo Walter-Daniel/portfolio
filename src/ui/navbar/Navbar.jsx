@@ -2,7 +2,7 @@ import { MenuUnfoldOutlined } from '@ant-design/icons';
 import { Anchor, Button, Drawer } from 'antd';
 import { useState } from 'react';
 const { Link } = Anchor;
-import logo from '../../helpers/cardImg'      
+import logo from '../../helpers/cardImg';     
 
 
 export const Navbar = () => {
@@ -20,14 +20,13 @@ export const Navbar = () => {
     <div className="container-fluid">
       <div className="header">
         <div className="logo">
-          <img src={logo.logo} alt="logo walter daniel carrizo" />
+          <img src={logo.logo} alt="logo Walter Daniel Carrizo" />
         </div>
         <div className="mobileHidden">
           <Anchor targetOffset="65">
             <Link href="#about" title="Acerca de mí" />
             <Link href="#education" title="Estudios" />
-            <Link href="#portfolio" title="Portfolio" />
-          
+            <Link href="#portfolio" title="Portfolio" />   
           </Anchor>
         </div>
         <div className="mobileVisible">
@@ -42,7 +41,7 @@ export const Navbar = () => {
           >
             <Anchor targetOffset="65">
               <Link href="#about" title="Acerca de mí" />
-              <Link href="#studies" title="Estudios" />
+              <Link href="#education" title="Estudios" />
               <Link href="#portfolio" title="Portfolio" />
             </Anchor>
           </Drawer>

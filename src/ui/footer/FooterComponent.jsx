@@ -1,5 +1,6 @@
-import { Tooltip } from 'antd'
-import images from '../../helpers/cardImg'
+import { Tooltip } from 'antd';
+import images from '../../helpers/cardImg';
+import logo from '../../helpers/cardImg';  
 
 export const FooterComponent = () => {
   return (
@@ -31,7 +32,9 @@ export const FooterComponent = () => {
             </ul>
           </div>
         <p>Copyrights © todos los derechos reservados</p>
-        <p>Walter Daniel Carrizo</p>
+        <div className="logo-footer">
+          <img src={logo.logo} alt="logo Walter Daniel Carrizo" />
+        </div>
       </div>
     </div>
   )

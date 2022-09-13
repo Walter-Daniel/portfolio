@@ -4,7 +4,7 @@ import { PortfolioCard } from '../components/PortfolioCard'
 
 export const Portfolio = () => {
   return (
-    <div className="bg-education" id='portfolio'>
+    <div  id='portfolio'>
       <div className='container-fluid'>
       <h2>Portfolio</h2>
       <Row gutter={[16, 16]}>

@@ -11,7 +11,7 @@ export const cardInformation = [
         title: 'Bon Appétit',
         img: images.restaurant,
         tecnology: 'React , Ant Design y NodeJs',
-        path: 'https://todoapp-wdc.netlify.app/'
+        path: 'https://bon-appetit-rc.netlify.app/'
     },
     {
         title: 'ToDo',

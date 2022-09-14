@@ -24,7 +24,7 @@ export const FooterComponent = () => {
                 </li>
                 <li>
                   <Tooltip title='Github'>
-                    <a href="https://www.linkedin.com" target="_blank">
+                    <a href="https://github.com/Walter-Daniel" target="_blank">
                         <img src={images.github} alt="logo github" />
                     </a>
                   </Tooltip>

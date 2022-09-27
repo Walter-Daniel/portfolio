@@ -10,6 +10,7 @@ export const Education = () => {
   return (
     <div className='bg-education' id='education'>
       <div className='container-fluid'>
+      <div data-aos="zoom-in">
         <h2>Educación</h2>
         <Row>
           <Col xs={24} lg={24}>
@@ -46,6 +47,8 @@ export const Education = () => {
             </Timeline>
           </Col>
         </Row>
+
+      </div>
       </div>
     </div>
   )

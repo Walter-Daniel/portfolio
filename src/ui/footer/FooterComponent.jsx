@@ -1,3 +1,4 @@
+import { GithubOutlined, InstagramOutlined, LinkedinOutlined } from '@ant-design/icons';
 import { Tooltip } from 'antd';
 import images from '../../helpers/cardImg';
 import logo from '../../helpers/cardImg';  
@@ -5,27 +6,27 @@ import logo from '../../helpers/cardImg';
 export const FooterComponent = () => {
   return (
     <div className='bg-footer'>
-      <div className="container-fluid">
+      <div className="container-fluid" data-aos="zoom-in">
           <div className="footer-icon">
             <ul>
                 <li>
-                  <Tooltip title='Linkedin'>
+                  <Tooltip title='Linkedin' className='icon-social-media'>
                     <a href="https://www.linkedin.com/in/walter-daniel-carrizo-52a4531a1/" target="_blank">
-                        <img src={images.linkedin} alt="logo linkedin" />
+                        <LinkedinOutlined />
                     </a>
                   </Tooltip>
                 </li>
                 <li>
-                  <Tooltip title='Instagram'>
+                  <Tooltip title='Instagram' className='icon-social-media'>
                     <a href="https://www.instagram.com/wdc.91/" target="_blank">
-                        <img src={images.instagram} alt="logo instagram" />
+                      <InstagramOutlined />
                     </a>
                   </Tooltip>
                 </li>
                 <li>
-                  <Tooltip title='Github'>
+                  <Tooltip title='Github' className='icon-social-media'>
                     <a href="https://github.com/Walter-Daniel" target="_blank">
-                        <img src={images.github} alt="logo github" />
+                      <GithubOutlined />
                     </a>
                   </Tooltip>
                 </li>

@@ -6,7 +6,9 @@ export const Portfolio = () => {
   return (
     <div  id='portfolio'>
       <div className='container-fluid'>
-      <h2>Portfolio</h2>
+      <div data-aos="zoom-in">
+        <h2>Portfolio</h2>
+      </div>
       <Row gutter={[16, 16]}>
         <Col >
           <PortfolioCard />

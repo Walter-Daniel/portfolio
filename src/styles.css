@@ -355,7 +355,9 @@ color: var(--color-2);
   height: 5rem;
 }
 
-
+a.icon-social-media {
+  font-size: 3rem;
+}
 /***** ABOUT *****/
 
 .bg-about {
@@ -469,6 +471,9 @@ color: var(--color-2);
 
   }
 }
+.bars{
+  margin-top: 2rem;
+}
 /* .container-img p {
   text-align: center;
 } */
@@ -525,9 +530,6 @@ color: var(--color-2);
 }
 ul {
   list-style-type: none;
-}
-a img {
-  height: 3rem;
 }
 .footer-icon ul {
   display: flex;

@@ -6,8 +6,10 @@ export const About = () => {
   return (
     <>
         <div className='bg-about' id='about'>
-            <div className="section container-fluid">
-                   <h2>Acerca de mi</h2> 
+            <div className="section container-fluid animate__animated animate__fadeIn">
+
+                <h2>Acerca de mi</h2> 
+             
                 <Row >
                     <Col  xs={24} lg={12} >
                         <div className="circle">
@@ -51,24 +53,26 @@ export const About = () => {
                     </Col>
                 </Row>
                 <Row align='center'>
-                    <div className='bars'>
-                    <h3>Conocimientos:</h3>
-                        <Text>Html</Text>
-                        <Progress percent={70} />
-                        <Text>Css</Text>
-                        <Progress percent={70}  />
-                        <Text>Boostrap</Text>
-                        <Progress percent={70}  />
-                        <Text>Javascript</Text>
-                        <Progress percent={60} />
-                        <Text>React</Text>
-                        <Progress percent={50}  />
-                        <Text>Ant Design</Text>
-                        <Progress percent={45} />
-                        <Text>Node JS</Text>
-                        <Progress percent={40} />
-                        <Text>GitHub</Text>
-                        <Progress percent={40} />
+                    <div data-aos="fade-up">
+                        <div className='bars'>
+                        <h3>Conocimientos:</h3>
+                            <Text>Html</Text>
+                            <Progress percent={70} />
+                            <Text>Css</Text>
+                            <Progress percent={70}  />
+                            <Text>Boostrap</Text>
+                            <Progress percent={70}  />
+                            <Text>Javascript</Text>
+                            <Progress percent={60} />
+                            <Text>React</Text>
+                            <Progress percent={50}  />
+                            <Text>Ant Design</Text>
+                            <Progress percent={45} />
+                            <Text>Node JS</Text>
+                            <Progress percent={40} />
+                            <Text>GitHub</Text>
+                            <Progress percent={40} />
+                        </div>
                     </div>
                 </Row>
             </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
 :root {
   /* --main-color: #ebebeb; */
   --main-color: #ebebeb;
@@ -29,6 +31,9 @@ h2 {
 
   text-transform: uppercase;
 }
+h1, h2, h3, h4 {
+  font-family: 'Sora', sans-serif;
+}
 @media (min-width: 360px) { 
   h2 {
     font-size: 3rem;   
@@ -36,7 +41,7 @@ h2 {
 }
 @media (min-width: 768px) { 
   h2 {
-    font-size: 6rem;   
+    font-size: 4.5rem;   
   }
 }
 .container-fluid {
@@ -419,15 +424,32 @@ a.icon-social-media {
   border-radius: 100px;
   transition: all 0.4s cubic-bezier(0.08, 0.82, 0.17, 1) 0s;
 }
-@media (min-width: 992px) { 
-  .litle-circle {
-    width: 37rem;
-    height: 37rem;
-  }
+.ant-progress-text {
+  color: var(--color-white);
 }
-
 .text-about {
-  text-align: center;
+ text-align: center;
+ margin-top: 0;
+}
+@media (min-width: 992px) { 
+  .text-about {
+    text-align: center;
+    margin-top: 12rem;
+   }
+}
+.text-about h4 {
+  font-size: 1.6rem;
+  text-transform: none;
+  text-align: start;
+  
+  
+}
+.text-about>h4>span {
+  
+  font-size: 2.8rem;
+  text-transform: none;
+  text-align: start;
+  background-color: var(--color-7);
 }
 /* @media (min-width: 992px) { 
   .text-about {
@@ -461,8 +483,7 @@ picture .img-curriculo img {
 }
 .bg-education h2 {
   font-size: 3rem;
-  color: transparent ;
-  -webkit-text-stroke: 2px var(--color-7)
+  color: var(--color-7);
 }
 .bg-education h3 {
   color: var(--color-8) ;

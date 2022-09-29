@@ -11,7 +11,7 @@ export const PortfolioCard = () => {
                 <Card
                 hoverable
                 style={{
-                width: 480,
+                width: 300,
                 margin: 10
                 }}
                 cover={<img alt={item.title} src={item.img} />}

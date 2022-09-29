@@ -6,7 +6,7 @@
   --color-4: #EB807C;
   --color-5: #a00c1e;
   --color-6: #7285b5;
-  --color-7: #7285b5;
+  --color-7: #f5dcb3;
   --color-8: #a1afd3;
   --color-white: #f3f3f3;
 }
@@ -22,11 +22,17 @@ body {
 h2 {
   padding: 2rem 0;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
-  -webkit-text-stroke: 2px var(--color-2);
-  color: transparent; 
+  /* -webkit-text-stroke: 2px var(--color-2);
+  color: transparent;  */
+
   text-transform: uppercase;
+}
+@media (min-width: 360px) { 
+  h2 {
+    font-size: 3rem;   
+  }
 }
 @media (min-width: 768px) { 
   h2 {
@@ -153,7 +159,7 @@ header.ant-layout-header {
   position: relative;
 }
 .ant-anchor-link-active > .ant-anchor-link-title {
-  color: #7285b5;
+  color: var(--color-7);
 }
 .header .ant-anchor-link:before,
 .header .ant-anchor-link:after {
@@ -361,15 +367,25 @@ a.icon-social-media {
 /***** ABOUT *****/
 
 .bg-about {
-  padding-top: 6rem;
-  padding-bottom: 3rem;
+  padding-top: 5rem;
 }
-.bg-about h2 {
-  padding-bottom: 0;
+@media (min-width: 480px) { 
+  .bg-about {
+    padding-top: 8rem;
+  }
 }
+
 @media (min-width: 768px) { 
   .bg-about h2 {
-    padding-bottom: 6rem;
+    margin-bottom: 1rem;
+  }
+}
+.ant-drawer-content-wrapper {
+  width: 300px !important;
+}
+@media (min-width: 360px) { 
+  .ant-drawer-content-wrapper {
+    width: 378px;
   }
 }
 .ant-typography {
@@ -388,14 +404,12 @@ a.icon-social-media {
   height: 100%;
 }
 .img-curriculo img{
-  height: 20rem;
+  height: 30rem;
   z-index: 3;
-  margin-bottom: 5rem;
-  margin-left: 2.8rem;
 }
 @media (min-width: 768px) { 
   .img-curriculo img{
-    height: 25rem;
+    height: 90vh;
   }
 }
 .ant-progress-bg {
@@ -405,111 +419,64 @@ a.icon-social-media {
   border-radius: 100px;
   transition: all 0.4s cubic-bezier(0.08, 0.82, 0.17, 1) 0s;
 }
-
-.big-circle {
-  background: #7285b5;
-  border-radius: 50%;
-  width: 25rem;
-  height: 25rem;
-  position: absolute;
-  bottom: 0;
-  z-index: 1;
-}
-@media (min-width: 768px) { 
-  .big-circle {
-    width: 33rem;
-    height: 33rem;
-  }
-}
-@media (min-width: 992px) { 
-  .big-circle {
-    width: 40rem;
-    height: 40rem;
-  }
-}
-.litle-circle {
-  background: #a1afd3;
-  border-radius: 50%;
-  width: 20rem;
-  height: 20rem;
-  position: absolute;
-  bottom: 0;
-  right: 20%;
-  z-index: 0;
-}
-@media (min-width: 768px) { 
-  .litle-circle {
-    width: 30rem;
-    height: 30rem;
-  }
-}
 @media (min-width: 992px) { 
   .litle-circle {
     width: 37rem;
     height: 37rem;
   }
 }
-.text-about p {
-  position: absolute;
-  z-index: 6;
-}
-.circle {
-  display: flex;
-  flex-wrap: nowrap;
-}
+
 .text-about {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 15rem;
-  text-align: end;
-  padding-left: 4rem;
+  text-align: center;
 }
-@media (min-width: 992px) { 
+/* @media (min-width: 992px) { 
   .text-about {
     height: 100%;
 
   }
-}
-.bars{
-  margin-top: 2rem;
-}
+} */
 /* .container-img p {
   text-align: center;
 } */
 
+picture .img-curriculo img {
+  width: 100%;
+  object-fit: cover;
+}
+
 /*********** EDUCACIÓN ***********/
 .ant-timeline-item-head-blue {
   color: var(--color-8);
-  border-color: var(--color-7);
+  border-color: var(--color-8);
 }
 .ant-timeline-item-tail{
   border-left: 2px solid var(--color-white);
 }
 .ant-timeline-item-head {
-  background-color: var(--color-7);
+  background-color: var(--color-8);
 }
 .bg-education {
   background-color: var(--color-2);
   padding-bottom: 2rem;
 }
 .bg-education h2 {
+  font-size: 3rem;
   color: transparent ;
   -webkit-text-stroke: 2px var(--color-7)
 }
 .bg-education h3 {
-  color: var(--color-7) ;
+  color: var(--color-8) ;
 }
 .bg-education .ant-typography  {
   color: var(--main-color);
 }
 /*********** PORTFOLIO ***********/
-
 .card-container {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding-bottom: 2rem;
+ 
 }
 .ant-card-cover img {
   height: 250px;
@@ -518,9 +485,11 @@ a.icon-social-media {
 .ant-card {
   background-color: var(--color-2);
   color: var(--main-color);
+  min-height: 415px;
 }
 .ant-card-meta-title {
   color: var(--main-color);
+  font-size: 20px;
 }
 
 /*********** FOOTER ***********/

@@ -11,7 +11,7 @@ export const FooterComponent = () => {
             <ul>
                 <li>
                   <Tooltip title='Linkedin' className='icon-social-media'>
-                    <a href="https://www.linkedin.com/in/walter-daniel-carrizo-52a4531a1/" target="_blank">
+                    <a href="https://www.linkedin.com/in/walter-daniel-carrizo/" target="_blank">
                         <LinkedinOutlined />
                     </a>
                   </Tooltip>

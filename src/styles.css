@@ -28,6 +28,7 @@ h2 {
   font-weight: bold;
   font-size: 2rem;
   text-align: center;
+  color: var(--color-7);
   /* -webkit-text-stroke: 2px var(--color-2);
   color: transparent;  */
 
@@ -103,11 +104,6 @@ p {
   left: 50%;
   height: 3px;
   width: 10rem;
-}
-
-.titleHolder h2 {
-  font-size: 28px;
-  margin: 0;
 }
 
 /* 
@@ -326,11 +322,22 @@ background: var(--color-6);
 }
 
 /* Footer */
+
+.bg-footer {
+  background: url('../assets/footer.jpg');
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  padding-bottom: 4rem;
+
+
+  background-repeat: no-repeat;
+}
 .ant-layout-footer {
 background: var(--main-color);
 color: var(--color-2);
-padding: 60px 0 !important;
 text-align: center;
+padding: 0;
 }
 .footer .logo {
 font-size: 22px;
@@ -496,24 +503,20 @@ picture .img-curriculo img {
   background-color: var(--color-2);
   padding-bottom: 2rem;
 }
-.bg-education h2 {
-  font-size: 3rem;
-  color: var(--color-7);
-}
 .bg-education h3 {
   color: var(--color-8) ;
 }
 .bg-education .ant-typography  {
   color: var(--color-white);
 }
-.skill {
-  padding: 0 6rem 1rem 0;
-}
 
 .skill-flex {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.ant-card .ant-card-bordered {
+  min-height: 340px !important; 
 }
 /*********** PORTFOLIO ***********/
 .card-container {
@@ -529,12 +532,15 @@ picture .img-curriculo img {
 }
 .ant-card {
   background-color: var(--color-2);
-  color: var(--main-color);
-  min-height: 415px;
+  color: var(--color-white);
+  /* min-height: 415px; */
 }
 .ant-card-meta-title {
-  color: var(--main-color);
+  color: var(--color-white);
   font-size: 20px;
+}
+.ant-card-head-title {
+  color: var(--color-7);
 }
 
 /*********** FOOTER ***********/

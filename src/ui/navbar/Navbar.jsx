@@ -25,6 +25,7 @@ export const Navbar = () => {
         <div className="mobileHidden">
           <Anchor targetOffset="65">
             <Link href="#about" title="Acerca de mí" />
+            <Link href="#skills" title="Habilidades" />
             <Link href="#education" title="Estudios" />
             <Link href="#portfolio" title="Portfolio" />   
           </Anchor>
@@ -41,6 +42,7 @@ export const Navbar = () => {
           >
             <Anchor targetOffset="65">
               <Link href="#about" title="Acerca de mí" />
+              <Link href="#skills" title="Habilidades" />
               <Link href="#education" title="Estudios" />
               <Link href="#portfolio" title="Portfolio" />
             </Anchor>

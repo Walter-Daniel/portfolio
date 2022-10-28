@@ -5,6 +5,7 @@ import { About } from './section/About';
 import { FooterComponent } from './ui/footer/FooterComponent';
 import { Navbar } from './ui/navbar/Navbar';
 import { HeaderSection } from './section/Header';
+import { Skills } from './section/Skills';
 
 const { Header, Footer, Content } = Layout;
 
@@ -18,6 +19,7 @@ function App() {
       <Content>
         <HeaderSection />
         <About />
+        <Skills />
         <Education />
         <Portfolio />
       </Content>

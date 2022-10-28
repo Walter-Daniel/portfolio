@@ -4,7 +4,8 @@ import todo from '../../assets/todoapp.jpg';
 import restaurant from '../../assets/original2.webp';
 import blackjack from '../../assets/blackjack.jpg';
 import logo from '../../assets/LogoMakr-2fFIWP.png';
-import portada from '../../assets/portada.mp4'
+import portada from '../../assets/portada.mp4';
+import imgFooter from '../../assets/footer.jpg';
 
 
 export default {
@@ -14,5 +15,6 @@ export default {
     restaurant,
     blackjack,
     logo,
-    portada
+    portada,
+    imgFooter
 }

@@ -31,7 +31,7 @@ export const Skills = () => {
                         <p>Express</p>
                         <p>MongoDB</p>
                     </Card>
-                    <Card title="Tools" style={{ width: 260 }}>
+                    <Card title="Herramientas" style={{ width: 260 }}>
                         <p>Git</p>
                         <p>Github</p>
                         <p>Trello</p>

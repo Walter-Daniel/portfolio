@@ -18,7 +18,10 @@ export const PortfolioCard = () => {
                 >
                     <Meta title={item.title} />
                     <p>Tecnologias: {item.tecnology}</p>
-                    <Button className='btn-second' ><a href={item.path} target='_blank' >Ver el Proyecto</a></Button>
+                    <div className="btn-flex">
+                      <Button className='btn-second' ><a href={item.path} target='_blank' >Ver el Proyecto</a></Button>
+                      <Button className='btn-second' ><a href={item.github} target='_blank' >Repositorio</a></Button>
+                    </div>
                 </Card>
               </div>
             ))

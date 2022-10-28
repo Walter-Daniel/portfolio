@@ -132,7 +132,11 @@ header
   }
 }
 header.ant-layout-header {
-  background-color: var(--color-2);
+  background: rgba(2, 2, 2, 0.856);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(66, 63, 63, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); 
 }
 
 .logo img {
@@ -305,20 +309,23 @@ color: var(--color-white);
 }
 
 .btn-second {
-margin-left: 1rem;
 font-weight: 600;
 border-radius: 5%;
-color: var(--color-2);
-border-color: var(--color-6);
-background: var(--color-6);
+color: var(--color-7);
+border-color: var(--color-7);
+background: none;
 text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
 box-shadow: 0 2px 0 rgb(0 0 0 / 5%); 
 }
 .btn-second:hover,
 .btn-second:focus {
 color: var(--color-2);
-border-color: var(--color-6);
-background: var(--color-6);
+border-color: var(--color-7);
+background: var(--color-7);
+}
+.btn-flex {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* Footer */
@@ -389,11 +396,11 @@ a.icon-social-media {
 /***** ABOUT *****/
 
 .bg-about {
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 @media (min-width: 480px) { 
   .bg-about {
-    padding-top: 8rem;
+    padding-top: 2rem;
   }
 }
 
@@ -431,7 +438,7 @@ a.icon-social-media {
 }
 @media (min-width: 768px) { 
   .img-curriculo img{
-    height: 90vh;
+    height: 70vh;
   }
 }
 .ant-progress-bg {
@@ -527,8 +534,9 @@ picture .img-curriculo img {
  
 }
 .ant-card-cover img {
-  height: 250px;
+  height: 160px;
   object-fit: cover;
+  padding: 0.5rem;
 }
 .ant-card {
   background-color: var(--color-2);
@@ -536,13 +544,24 @@ picture .img-curriculo img {
   /* min-height: 415px; */
 }
 .ant-card-meta-title {
-  color: var(--color-white);
+  color: var(--color-7);
   font-size: 20px;
 }
 .ant-card-head-title {
   color: var(--color-7);
 }
-
+.ant-card-bordered {
+  border: 1px solid #f0f0f0;
+}
+.ant-card-bordered:focus {
+  border: 1px solid #f0f0f0;
+}
+.ant-card-bordered:hover {
+  border: 1px solid #f0f0f0;
+}
+.ant-card-bordered .ant-card-cover {
+  margin: 0;
+}
 /*********** FOOTER ***********/
 .ant-layout-footer {
   background-color: var(--color-2);

@@ -7,6 +7,7 @@ export const About = () => {
     <>
         <div className='bg-about' id='about'>
             <div className="section container-fluid animate__animated animate__fadeIn">
+                    <h2>Acerca de mí</h2>
                 <Row >
                     <Col  xs={24} lg={14} >  
                         <div className='container-fluid img-flex'>

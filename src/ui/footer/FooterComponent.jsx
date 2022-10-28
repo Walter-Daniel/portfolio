@@ -5,20 +5,13 @@ import logo from '../../helpers/cardImg';
 export const FooterComponent = () => {
   return (
     <div className='bg-footer'>
-      <div className="container-fluid" data-aos="zoom-in">
+      <div className="container-fluid footer-flex" data-aos="zoom-in">
           <div className="footer-icon">
             <ul>
                 <li>
                   <Tooltip title='Linkedin' className='icon-social-media'>
                     <a href="https://www.linkedin.com/in/walter-daniel-carrizo/" target="_blank">
                         <LinkedinOutlined />
-                    </a>
-                  </Tooltip>
-                </li>
-                <li>
-                  <Tooltip title='Instagram' className='icon-social-media'>
-                    <a href="https://www.instagram.com/wdc.91/" target="_blank">
-                      <InstagramOutlined />
                     </a>
                   </Tooltip>
                 </li>
@@ -31,9 +24,10 @@ export const FooterComponent = () => {
                 </li>
             </ul>
           </div>
-        <p>Copyrights © todos los derechos reservados</p>
+        
         <div className="logo-footer">
-          <img src={logo.logo} alt="logo Walter Daniel Carrizo" />
+          <img src={logo.logo} alt="logo Walter Daniel Carrizo" />   
+          <p>Copyrights © todos los derechos reservados</p>
         </div>
       </div>
     </div>

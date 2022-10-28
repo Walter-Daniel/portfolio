@@ -4,6 +4,7 @@ import { Portfolio } from './section/Portfolio';
 import { About } from './section/About';
 import { FooterComponent } from './ui/footer/FooterComponent';
 import { Navbar } from './ui/navbar/Navbar';
+import { HeaderSection } from './section/Header';
 
 const { Header, Footer, Content } = Layout;
 
@@ -15,6 +16,7 @@ function App() {
         <Navbar />
       </Header>
       <Content>
+        <HeaderSection />
         <About />
         <Education />
         <Portfolio />

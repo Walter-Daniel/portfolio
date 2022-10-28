@@ -1,12 +1,11 @@
 import gif from '../../assets/gif.jpg';
-import turismo from '../../assets/chalten.png';
+import turismo from '../../assets/chalten.jpg';
 import todo from '../../assets/todoapp.jpg';
 import restaurant from '../../assets/original2.webp';
 import blackjack from '../../assets/blackjack.jpg';
-import github from '../../assets/github.png';
-import instagram from '../../assets/instagram.png';
-import linkedin from '../../assets/linkedin.png';
-import logo from '../../assets/LogoMakr-2fFIWP.png'
+import logo from '../../assets/LogoMakr-2fFIWP.png';
+import portada from '../../assets/portada.mp4'
+
 
 export default {
     gif,
@@ -14,8 +13,6 @@ export default {
     todo,
     restaurant,
     blackjack,
-    github,
-    linkedin,
-    instagram,
-    logo
+    logo,
+    portada
 }

@@ -1,6 +1,5 @@
 import { GithubOutlined, InstagramOutlined, LinkedinOutlined } from '@ant-design/icons';
 import { Tooltip } from 'antd';
-import images from '../../helpers/cardImg';
 import logo from '../../helpers/cardImg';  
 
 export const FooterComponent = () => {

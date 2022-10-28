@@ -1,5 +1,6 @@
-import { Col, Row, Timeline, Tag, Typography, Progress } from 'antd'
-import { useState } from 'react'
+import { Col, Row, Timeline, Tag, Typography, Progress, Tooltip } from 'antd';
+import { useState } from 'react';
+import { skills } from '../helpers/skills';
 const { Text} = Typography;
 
 export const Education = () => {
@@ -15,7 +16,7 @@ export const Education = () => {
         <Row>
         <Col xs={24} lg={12}>
               <div data-aos="fade-right">
-                        <div className='bars'>
+                        {/* <div className='bars'>
                         <h2>Habilidades</h2>
                             <Text>Html</Text>
                             <Progress percent={70} />
@@ -33,8 +34,51 @@ export const Education = () => {
                             <Progress percent={40} />
                             <Text>GitHub</Text>
                             <Progress percent={40} />
+                        </div> */}
+                        <h2>Habilidades</h2>
+                        <div className='skill-flex' >
+                          <div className='skill'>
+                            <h3>Frontend</h3>
+                            <ul>
+                              <li>HTML</li>
+                              <li>CSS</li>
+                              <li>Javascript</li>
+                              <li>React.js</li>
+                              <li>Ant Design</li>
+                              <li>Bootstrap</li>
+                            </ul>
+                          </div>
+                          <div className='skill'>
+                            <h3>Backend</h3>
+                            <ul>
+                              <li>Node.js</li>
+                              <li>Express</li>
+                              <li>MongoDB</li>
+                            </ul>
+                          </div>
+                          <div className='skill'>
+                            <h3>Tools</h3>
+                            <ul>
+                              <li>Git</li>
+                              <li>Github</li>
+                              <li>Trello</li>
+                              <li>Visual Studio Code</li>
+                              <li>Figma</li>
+                              <li>Canva</li>
+                            </ul>
+                          </div>
+                          <div className='skill'>
+                            <h3>Metodologías Ágiles</h3>
+                            <ul>
+                              <li>Scrum</li>
+                              <li>Kanban</li>
+                            </ul>
+                          </div>  
                         </div>
-                    </div>
+
+                    
+                  
+              </div>
           </Col>
           <Col xs={24} lg={12}>
             <div data-aos="fade-left">

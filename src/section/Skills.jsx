@@ -15,7 +15,7 @@ export const Skills = () => {
         
         <Row>
         <Col xs={24} lg={24}>
-              <div data-aos="fade-right">          
+              <div data-aos="fade-up">          
                 <h2>Habilidades</h2>
                 <div className='skill-flex' >
                     <Card title="Frontend" style={{ width: 260 }}>

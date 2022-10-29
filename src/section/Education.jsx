@@ -22,19 +22,19 @@ export const Education = () => {
                 <Timeline.Item label={info('03/2022')}>
                   <div className=''>
                     <h3>Instituto Rush</h3>
-                    <Text>Intensivo 1 (nivel correspondiente A1)</Text>
+                    <Text>Intensivo 1 (nivel correspondiente: A1)</Text>
                   </div>
                 </Timeline.Item>
                 <Timeline.Item label={info('03/2022')}>
                   <div className=''>
                     <h3>Facultad de Ciencias Exáctas</h3>          
-                    <Text>Estudiante de la carrera "Programación Universiataria"</Text>
+                    <Text>Estudiante de la tecnicatura "Programador Universitario"</Text>
                   </div>
                 </Timeline.Item>
                 <Timeline.Item label={info('10/2021 - 09/2022')}>
                   <div className=''>
                     <h3>RollingCode School</h3>
-                    <Text>Desarrollo Web Full Stack (Mern)</Text>
+                    <Text>Desarrollo Web Full Stack (MERN)</Text>
                   </div>
                 </Timeline.Item>
                 <Timeline.Item label={info('2004 - 2008')}>

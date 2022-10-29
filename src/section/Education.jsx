@@ -11,12 +11,12 @@ export const Education = () => {
   return (
     <div className='bg-education' id='education'>
       <div className='container-fluid'>
-      <div data-aos="zoom-in">
+      <div data-aos="fade-up">
         
         <Row>
        
           <Col xs={24} lg={24}>
-            <div data-aos="fade-left">
+            <div >
               <h2>Educación</h2>
               <Timeline mode={mode}>
                 <Timeline.Item label={info('03/2022')}>

@@ -17,7 +17,10 @@ export const HeaderSection = () => {
       smartBackspace: true,
       showCursor: false,
       loop: true
-    })
+    });
+    return () => {
+      typed.destroy()
+    }
   }, [])
   
   return (

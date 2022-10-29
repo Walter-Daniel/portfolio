@@ -7,15 +7,15 @@ export const FooterComponent = () => {
     <div className='bg-footer'>
       <div className="container-fluid footer-flex" data-aos="zoom-in">
           <div className="footer-icon">
-            <ul>
-                <li>
+            <ul key="footer-icons">
+                <li key="linkedin">
                   <Tooltip title='Linkedin' className='icon-social-media'>
                     <a href="https://www.linkedin.com/in/walter-daniel-carrizo/" target="_blank">
                         <LinkedinOutlined />
                     </a>
                   </Tooltip>
                 </li>
-                <li>
+                <li key="github">
                   <Tooltip title='Github' className='icon-social-media'>
                     <a href="https://github.com/Walter-Daniel" target="_blank">
                       <GithubOutlined />

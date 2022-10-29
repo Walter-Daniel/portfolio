@@ -1,7 +1,7 @@
 
 import Typed from 'typed.js'
 import { useEffect, useRef } from 'react'
-import video from '../../assets/portada.mp4'
+import video from '../../assets/portada.webm'
 
 export const HeaderSection = () => {
 

@@ -1,7 +1,7 @@
 
-import video from '../../assets/portada.mp4'
 import Typed from 'typed.js'
 import { useEffect, useRef } from 'react'
+import video from '../../assets/portada.mp4'
 
 export const HeaderSection = () => {
 
@@ -24,23 +24,18 @@ export const HeaderSection = () => {
   }, [])
   
   return (
-    <>
-       <div className="header-container">
-            <div className="header-video">
-                <video src={video} autoPlay loop muted/>
-            </div>
-            <div className="header-text">
-              
-                <p>
-                    Bienvenidos a mi <br />
+    <div className="header-container">
+        <div className="header-video">
+            <video src={video} type='video/mp4' autoPlay loop muted />
+        </div>
+        <div className="header-text">
+          
+            <p>
+                Bienvenidos a mi <br />
 
-                    <span ref={el}></span>
-                </p>
-            </div>
-       </div>
-
-    </>
-
-   
+                <span ref={el}></span>
+            </p>
+        </div>
+    </div> 
   )
 }

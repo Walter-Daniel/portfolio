@@ -22,6 +22,7 @@ function App() {
 
   return (
     <Layout>
+      
       {
         loading ? 
                 ( <Loading />)
@@ -44,6 +45,7 @@ function App() {
                   </div>
                 )
       }
+      
       
     </Layout>
   )

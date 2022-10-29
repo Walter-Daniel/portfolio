@@ -642,6 +642,14 @@ ul {
   border-radius: 4px;
   height: 100vh;
 }
+.example h2 {
+  font-size: 1.2rem;
+}
+@media (min-width: 480px) { 
+  .example h2 {
+    font-size: 2rem;
+  }
+}
 .ant-spin-dot-item {
   background-color: var(--color-7);
   font-size: 6rem;

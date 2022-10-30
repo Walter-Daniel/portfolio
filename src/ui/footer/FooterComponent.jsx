@@ -9,16 +9,16 @@ export const FooterComponent = () => {
           <div className="footer-icon">
             <ul key="footer-icons">
                 <li key="linkedin">
-                  <Tooltip title='Linkedin' className='icon-social-media'>
+                  <Tooltip className='icon-social-media'>
                     <a href="https://www.linkedin.com/in/walter-daniel-carrizo/" target="_blank">
-                        <LinkedinOutlined />
+                        <LinkedinOutlined /> Linkedin
                     </a>
                   </Tooltip>
                 </li>
                 <li key="github">
-                  <Tooltip title='Github' className='icon-social-media'>
+                  <Tooltip className='icon-social-media'>
                     <a href="https://github.com/Walter-Daniel" target="_blank">
-                      <GithubOutlined />
+                      <GithubOutlined /> Github
                     </a>
                   </Tooltip>
                 </li>

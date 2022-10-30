@@ -31,7 +31,7 @@ export const Education = () => {
                     <Text>Estudiante de la tecnicatura "Programador Universitario"</Text>
                   </div>
                 </Timeline.Item>
-                <Timeline.Item label={info('10/2021 - 09/2022')}>
+                <Timeline.Item label={info('10/2021 - 05/2022')}>
                   <div className=''>
                     <h3>RollingCode School</h3>
                     <Text>Desarrollo Web Full Stack (MERN)</Text>

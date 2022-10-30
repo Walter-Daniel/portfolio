@@ -11,14 +11,16 @@ export const FooterComponent = () => {
                 <li key="linkedin">
                   <Tooltip className='icon-social-media'>
                     <a href="https://www.linkedin.com/in/walter-daniel-carrizo/" target="_blank">
-                        <LinkedinOutlined /> Linkedin
+                        <LinkedinOutlined /> 
+                        <p>Linkedin</p>
                     </a>
                   </Tooltip>
                 </li>
                 <li key="github">
                   <Tooltip className='icon-social-media'>
                     <a href="https://github.com/Walter-Daniel" target="_blank">
-                      <GithubOutlined /> Github
+                      <GithubOutlined /> 
+                      <p>Github</p>
                     </a>
                   </Tooltip>
                 </li>

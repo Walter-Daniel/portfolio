@@ -423,8 +423,9 @@ background: var(--color-7);
   flex-direction: column;
   justify-content: center;
   align-items: center;
- margin-top: 0;
- height: 100%;
+  margin-top: 0;
+  height: 100%;
+  padding: 0 1rem;
 }
 .text-about p {
   text-align: justify;
@@ -574,12 +575,30 @@ color: var(--color-2)
 
 a.icon-social-media {
   font-size: 1.2rem;
-  padding: 0 1.2rem;
-  margin: 0;
+  padding: 0.3rem 1.2rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
   background-color: var(--color-7);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.43);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.43);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.43);
+  transition: all 0.2s;
+}
+a.icon-social-media:hover,
+a.icon-social-media:hover {
+  color: var(--color-7);
+  border-color: var(--color-2);
+  background: var(--color-2);
+  
+}
+a.icon-social-media p {
+  margin-bottom: 0;
+  font-weight: bold;
+  margin-left: 5px;
+}
+a.icon-social-media span svg {
+  font-size: 2rem;
 }
 .footer-flex {
   height: 100%;
@@ -601,9 +620,9 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   padding: 0 1rem;
   font-weight: bold;
   background-color: var(--color-7);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.43);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.43);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.43);
 
 }
 .ant-layout-footer {

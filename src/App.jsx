@@ -17,12 +17,11 @@ function App() {
     useEffect(() => {
         setTimeout(() => {
             setLoading(false)
-        }, 3000);
+        }, 2000);
     }, []);
 
   return (
-    <Layout>
-      
+    <Layout> 
       {
         loading ? 
                 ( <Loading />)
@@ -44,9 +43,7 @@ function App() {
                     </Footer>
                   </div>
                 )
-      }
-      
-      
+      }   
     </Layout>
   )
 }

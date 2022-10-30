@@ -19,13 +19,13 @@ export const Education = () => {
             <div >
               <h2>Educación</h2>
               <Timeline mode={mode}>
-                <Timeline.Item label={info('03/2022')}>
+                <Timeline.Item label={info('03/2022 - Presente')}>
                   <div className=''>
                     <h3>Instituto Rush</h3>
                     <Text>Intensivo 1 (nivel correspondiente: A1)</Text>
                   </div>
                 </Timeline.Item>
-                <Timeline.Item label={info('03/2022')}>
+                <Timeline.Item label={info('03/2022 - Presente')}>
                   <div className=''>
                     <h3>Facultad de Ciencias Exáctas</h3>          
                     <Text>Estudiante de la tecnicatura "Programador Universitario"</Text>

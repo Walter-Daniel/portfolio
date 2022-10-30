@@ -29,6 +29,10 @@ export const FooterComponent = () => {
           <img src={logo.logo} alt="logo Walter Daniel Carrizo" />   
           <p>Copyrights © todos los derechos reservados</p>
         </div>
+        <div className="contact-footer">
+          <p>+543816529783</p>
+          <p>walterdcarrizo.19@gmail.com</p>
+        </div>
       </div>
     </div>
   )

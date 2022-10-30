@@ -133,7 +133,6 @@ header
 }
 header.ant-layout-header {
   background: rgba(2, 2, 2, 0.856);
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(66, 63, 63, 0.5);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px); 
@@ -268,11 +267,6 @@ header.ant-layout-header {
   text-align: end;
   font-size: 24px;
 }
-
- .anticon svg {
-  color: #fff;
-} 
-
 
 .item-login-logout {
 display: flex;
@@ -429,15 +423,11 @@ background: var(--color-7);
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
- text-align: center;
  margin-top: 0;
  height: 100%;
 }
-@media (min-width: 992px) { 
-  .text-about {
-    text-align: center;
-   }
+.text-about p {
+  text-align: justify;
 }
 .text-about h4 {
   font-size: 1.6rem;
@@ -454,6 +444,14 @@ background: var(--color-7);
   text-align: start;
   color: var(--color-2);
   background-color: var(--color-7);
+}
+.ant-tag{
+  height: 2rem;
+  font-size: 16px;
+  padding-top: 0.3rem;
+  background: #a9a9a940;
+  font-weight: bold;
+  color: var(--color-8);
 }
 /* @media (min-width: 992px) { 
   .text-about {
@@ -538,7 +536,6 @@ picture .img-curriculo img {
   margin: 0;
 }
 /*********** FOOTER ***********/
-/* Footer */
 
 .bg-footer {
   background: url('../assets/footer.jpg');
@@ -592,6 +589,11 @@ color: var(--color-2);
 
 a.icon-social-media {
   font-size: 3rem;
+  padding: 0;
+  margin: 0;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 .footer-flex {
   height: 100%;
@@ -600,10 +602,31 @@ a.icon-social-media {
   justify-content: center;
   align-items: center;
 }
+@media (min-width: 768px) { 
+  .footer-flex {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+}
+.contact-footer p {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: var(--color-7);
+}
 .ant-layout-footer {
   background-color: var(--color-2);
   color: var(--main-color);
 }
+.anticon svg {
+  color: #fff;
+}
+@media (min-width: 768px) { 
+  .anticon svg {
+    color: var(--color-2);
+  }
+} 
 ul {
   list-style-type: none;
 }

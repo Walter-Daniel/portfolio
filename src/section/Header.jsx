@@ -31,7 +31,7 @@ export const HeaderSection = () => {
         <div className="header-text">
           
             <p>
-                Bienvenidos a mi <br />
+                Bienvenid@ a mi <br />
 
                 <span ref={el}></span>
             </p>

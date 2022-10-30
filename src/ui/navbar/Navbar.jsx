@@ -19,15 +19,18 @@ export const Navbar = () => {
   return (
     <div className="container-fluid">
       <div className="header">
+      <a href="#header">
         <div className="logo">
           <img src={logo.logo} alt="logo Walter Daniel Carrizo" />
         </div>
+      </a>
         <div className="mobileHidden">
           <Anchor targetOffset="65">
             <Link href="#about" title="Acerca de mí" />
             <Link href="#skills" title="Habilidades" />
             <Link href="#education" title="Estudios" />
             <Link href="#portfolio" title="Portfolio" />   
+            <Link href="#contact" title="Contacto" />   
           </Anchor>
         </div>
         <div className="mobileVisible">
@@ -45,6 +48,7 @@ export const Navbar = () => {
               <Link href="#skills" title="Habilidades" />
               <Link href="#education" title="Estudios" />
               <Link href="#portfolio" title="Portfolio" />
+              <Link href="#contact" title="Contacto" />   
             </Anchor>
           </Drawer>
         </div>

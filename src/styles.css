@@ -170,7 +170,7 @@ header.ant-layout-header {
 .header .ant-anchor-link:before,
 .header .ant-anchor-link:after {
   content: '';
-  background: var(--main-color);
+  background: var(--color-7);
   width: 1px;
   position: absolute;
   top: 2px;
@@ -541,7 +541,7 @@ picture .img-curriculo img {
   background: url('../assets/footer.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 15rem;
+  height: 20rem;
 }
 @media (min-width: 768px) { 
   .bg-footer {
@@ -588,7 +588,7 @@ color: var(--color-2);
 }
 
 a.icon-social-media {
-  font-size: 3rem;
+  font-size: 3.5rem;
   padding: 0;
   margin: 0;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -612,8 +612,13 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 .contact-footer p {
   text-align: justify;
   font-size: 16px;
+  padding: 0 1rem;
   font-weight: bold;
   background-color: var(--color-7);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
 }
 .ant-layout-footer {
   background-color: var(--color-2);
@@ -624,7 +629,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 @media (min-width: 768px) { 
   .anticon svg {
-    color: var(--color-2);
+    color: var(--color-7);
   }
 } 
 ul {

@@ -4,7 +4,7 @@ import logo from '../../helpers/cardImg';
 
 export const FooterComponent = () => {
   return (
-    <div className='bg-footer'>
+    <div className='bg-footer' id='contact'>
       <div className="container-fluid footer-flex" data-aos="zoom-in">
           <div className="footer-icon">
             <ul key="footer-icons">
@@ -30,8 +30,8 @@ export const FooterComponent = () => {
           <p>Copyrights © todos los derechos reservados</p>
         </div>
         <div className="contact-footer">
-          <p>+543816529783</p>
-          <p>walterdcarrizo.19@gmail.com</p>
+          <p>Tel: +543816529783</p>
+          <p>Email: walterdcarrizo.19@gmail.com</p>
         </div>
       </div>
     </div>

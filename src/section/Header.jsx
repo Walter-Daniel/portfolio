@@ -24,7 +24,7 @@ export const HeaderSection = () => {
   }, [])
   
   return (
-    <div className="header-container">
+    <div className="header-container" id='header'>
         <div className="header-video">
             <video src={video} type='video/mp4' autoPlay loop muted />
         </div>

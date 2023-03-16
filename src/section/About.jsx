@@ -21,7 +21,7 @@ export const About = () => {
                         <div className='text-about'>                                              
                             <h4>Hola! me llamo<br /><span>Walter Daniel Carrizo</span></h4>
                             <p>Soy Desarrollador Web FullStack (MERN) y estudiante de la tecnicatura "Programador Universitario" en la Universidad Nacional de Tucumán, Argentina. Mis mayores fortalezas son mi paciencia, mi empatía y mi empeño en aprender. Cada paso, aunque pequeño sea, es un avance y eso me motiva a desempeñarme cada día mejor en mi disciplina. Soy amante de la tecnología, fotografías y de la naturaleza. </p> 
-                            <Button className='btn-second' ><a href="https://drive.google.com/file/d/1sf9NNWotXwRKgOXmo4lKyrvS7LiZvfUK/view?usp=sharing" target='_blank' >Ver CV</a></Button>
+                            <Button className='btn-second' ><a href="https://drive.google.com/file/d/13SZT8XxOt2hu5qbQk0UBfuoZiBE6Xao-/view?usp=share_link" target='_blank' >Ver CV</a></Button>
                     
                         </div>
                     </Col>

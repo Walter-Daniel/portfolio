@@ -23,13 +23,18 @@ export const Skills = () => {
                         <p>CSS</p>
                         <p>Javascript</p>
                         <p>React.js</p>
+                        <p>React Redux Toolkit</p>
                         <p>Ant Design</p>
                         <p>Bootstrap</p>
                     </Card>                   
                     <Card title="Backend" style={{ width: 260 }}>
                         <p>Node.js</p>
                         <p>Express</p>
+                        <p>Mongoose</p>
+                        <p>JASON Web Token</p>
                         <p>MongoDB</p>
+                        <p>SQL</p>
+                        <p>Bcryptjs</p>
                     </Card>
                     <Card title="Herramientas" style={{ width: 260 }}>
                         <p>Git</p>

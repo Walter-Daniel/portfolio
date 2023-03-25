@@ -6,7 +6,7 @@ export const cardInformation = [
         img: images.journal,
         tecnology: 'HTML, CSS, React-Redux-Toolkit, MIU, NodeJs, Express, MongoDB, Cloudinary',
         path: 'https://purple-journal-app.netlify.app/',
-        github: 'https://github.com/Walter-Daniel/JournalProyecta',
+        github: 'https://github.com/Walter-Daniel/JournalProyect',
         githubBack: 'https://github.com/Walter-Daniel/JournalProyect-Backend'
     },
     {

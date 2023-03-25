@@ -6,6 +6,7 @@ import blackjack from '../../assets/blackjack.jpg';
 import logo from '../../assets/logo1.png';
 import portada from '../../assets/portada.mp4';
 import imgFooter from '../../assets/footer.jpg';
+import journal from '../../assets/journal.jpg';
 
 
 export default {
@@ -16,5 +17,6 @@ export default {
     blackjack,
     logo,
     portada,
-    imgFooter
+    imgFooter,
+    journal
 }

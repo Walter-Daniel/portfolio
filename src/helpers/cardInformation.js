@@ -2,11 +2,12 @@ import images from './cardImg'
 
 export const cardInformation = [
     {
-        title: 'Turismo Argentina',
-        img: images.turismo,
-        tecnology: 'HTML, CSS y bootstrap5',
-        path: 'https://turismo-arg.netlify.app/',
-        github: 'https://github.com/Walter-Daniel/turismo-argentina'
+        title: 'Journal (App de escritorio)',
+        img: images.journal,
+        tecnology: 'HTML, CSS, React-Redux-Toolkit, MIU, NodeJs, Express, MongoDB, Cloudinary',
+        path: 'https://purple-journal-app.netlify.app/',
+        github: 'https://github.com/Walter-Daniel/JournalProyecta',
+        githubBack: 'https://github.com/Walter-Daniel/JournalProyect-Backend'
     },
     {
         title: 'Bon Appétit',
@@ -14,6 +15,13 @@ export const cardInformation = [
         tecnology: 'HTML, CSS, React, Ant Design, NodeJs, Express, MongoDB',
         path: 'https://bon-appetit-rc.netlify.app/',
         github: 'https://github.com/Walter-Daniel/restaurant-proyect'
+    },
+    {
+        title: 'Turismo Argentina',
+        img: images.turismo,
+        tecnology: 'HTML, CSS y bootstrap5',
+        path: 'https://turismo-arg.netlify.app/',
+        github: 'https://github.com/Walter-Daniel/turismo-argentina'
     },
     {
         title: 'ToDo',

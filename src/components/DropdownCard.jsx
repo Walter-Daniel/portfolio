@@ -1,8 +1,4 @@
-// import { CaretDownOutlined } from '@ant-design/icons';
-// import DropdownButton from 'react-bootstrap/DropdownButton';
-// import React, { useState } from 'react';
-
-import { Dropdown, ButtonGroup, DropdownButton, SplitButton } from 'react-bootstrap';
+import { Dropdown,  DropdownButton } from 'react-bootstrap';
 
 
 export const DropdownCard = ({ frontend, backend }) => {

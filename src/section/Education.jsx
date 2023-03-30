@@ -18,7 +18,7 @@ export const Education = () => {
           <Col xs={24} lg={24}>
             <div >
               <h2>Educación</h2>
-              <Timeline mode={mode}>
+              {/* <Timeline mode={mode}>
                 <Timeline.Item label={info('03/2022 - Presente')}>
                   <div className=''>
                     <h3>Instituto Rush</h3>
@@ -43,7 +43,48 @@ export const Education = () => {
                     <Text>Polimodal</Text>
                   </div>
                 </Timeline.Item>          
-              </Timeline>
+              </Timeline> */}
+              <Timeline
+              mode={mode}
+                items={[
+                  {
+                    label: info('03/2022 - Presente'),
+                    children: (
+                      <>
+                        <h6>Instituto Rush</h6>
+                        <p>Intensivo 2 (nivel correspondiente: A2)</p>
+                      </>
+                    ),
+                  },
+                  {
+                    label: info('03/2022 - Presente'),
+                    children: (
+                      <>
+                        <h6>Facultad de Ciencias Exáctas</h6>                  
+                        <Text>Estudiante de la tecnicatura "Programador Universitario"</Text>
+                      </>
+                    ),
+                  },
+                  {
+                    label: info('10/2021 - 05/2022'),
+                    children: (
+                      <>
+                        <h6>RollingCode School</h6>
+                        <Text>Desarrollo Web Full Stack (MERN)</Text>
+                      </>
+                    ),
+                  },
+                  {
+                    label: info('2004 - 2008'),
+                    children: (
+                      <>
+                        <h6>Escuela de La Patria Comercio N°3</h6>
+                        <Text>Polimodal</Text>
+                      </>
+                    ),
+                  },
+                ]}
+              />
             </div>
           </Col>  
         </Row>

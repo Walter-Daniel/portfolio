@@ -470,15 +470,30 @@ picture .img-curriculo img {
 }
 
 /*********** EDUCACIÓN ***********/
-.ant-timeline-item-head-blue {
-  color: var(--color-8);
+.ant-timeline-item-head.ant-timeline-item-head-blue {
+  color: var(--color-8) !important;
   border-color: var(--color-8);
 }
+
+/* :where(.css-dev-only-do-not-override-1e3x2xa).ant-timeline .ant-timeline-item-head {
+  background-color: var(--color-8);
+
+} */
+
 .ant-timeline-item-tail{
-  border-left: 2px solid var(--color-white);
+  border-left: 2px solid var(--color-white) !important;
 }
 .ant-timeline-item-head {
   background-color: var(--color-8);
+}
+.ant-timeline-item-label {
+  color: var(--color-8);
+}
+.ant-timeline-item-content h6{
+  color: var(--color-8);
+}
+.ant-timeline-item-content p{
+  color: var(--color-white);
 }
 .bg-education {
   background-color: var(--color-2);

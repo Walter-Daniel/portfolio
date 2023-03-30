@@ -1,5 +1,7 @@
-import { Button, Card, Row, Dropdown } from 'antd';
+import { Card, Row } from 'antd';
+import { Button } from 'react-bootstrap';
 import { cardInformation } from '../helpers/cardInformation';
+import { DropdownCard } from './DropdownCard';
 const { Meta } = Card;
 
 export const PortfolioCard = () => {
@@ -20,8 +22,8 @@ export const PortfolioCard = () => {
                     <Meta title={item.title} />
                     <p>Tecnologias: {item.tecnology}</p>
                     <div className="btn-flex">
-                      <Button className='btn-second' ><a href={item.path} target='_blank' >Ver Proyecto</a></Button>
-                      <Button className='btn-second' ><a href={item.github} target='_blank' >Repositorio</a></Button>
+                      <Button variant='outline-warning' href={item.path} target='_blank' size='sm'>Ver Proyecto</Button>
+                      <DropdownCard frontend={item.github} backend={item.githubBack}/> 
                     </div>
                 </Card>
               </div>

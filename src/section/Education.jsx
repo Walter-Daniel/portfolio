@@ -9,7 +9,7 @@ export const Education = () => {
             return <Tag color="geekblue">{text}</Tag>}
 
   return (
-    <div className='bg-education' id='education'>
+    <div className='bg-education'>
       <div className='container-fluid'>
       <div data-aos="fade-up">
         
@@ -17,7 +17,7 @@ export const Education = () => {
        
           <Col xs={24} lg={24}>
             <div >
-              <h2>Educación</h2>
+              <h2  id='education'>Educación</h2>
               <Timeline
               mode={mode}
                 items={[

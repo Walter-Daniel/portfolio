@@ -1,14 +1,12 @@
 import { MenuUnfoldOutlined } from '@ant-design/icons';
 import { Anchor, Button, Drawer } from 'antd';
 import { useState } from 'react';
-const { Link } = Anchor;
 import logo from '../../helpers/cardImg';     
 
 
 export const Navbar = () => {
 
   const [open, setOpen] = useState(false);
-  const [targetOffset, setTargetOffset] = useState();
 
   const showDrawer = () => {
     setOpen(true);
@@ -27,7 +25,7 @@ export const Navbar = () => {
       </a>
         <div className="mobileHidden">
           <Anchor
-            // targetOffset={targetOffset}
+            targetOffset={65}
             items={[
               {
                 key: 'part-1',
@@ -68,7 +66,7 @@ export const Navbar = () => {
             open={open}
           >
             <Anchor
-            // targetOffset={targetOffset}
+            targetOffset={65}
             items={[
               {
                 key: 'part-1',

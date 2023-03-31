@@ -4,19 +4,17 @@ import { skills } from '../helpers/skills';
 const { Text} = Typography;
 
 export const Skills = () => {
-  const [mode, setMode] = useState('left');
   const info = (text) => {
             return <Tag color="geekblue">{text}</Tag>}
 
   return (
-    <div className='bg-education' id='skills'>
+    <div className='bg-skills' id='skills'>
       <div className='container-fluid'>
-      <div data-aos="zoom-in">
-        
+      <div data-aos="zoom-in"> 
         <Row>
         <Col xs={24} lg={24}>
               <div data-aos="fade-up">          
-                <h2>Habilidades</h2>
+                <h2 >Habilidades</h2>
                 <div className='skill-flex' >
                     <Card title="Frontend" style={{ width: 260 }}>
                         <p>HTML</p>

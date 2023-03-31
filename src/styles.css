@@ -48,7 +48,7 @@ h1, h2, h3, h4 {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 15px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
   
 .ant-layout {
@@ -153,10 +153,10 @@ header.ant-layout-header {
 }
 
 .header .ant-anchor-ink {
-  display: none;
+  display: none !important;
 }
 
-.header .ant-anchor-link {
+.css-dev-only-do-not-override-1e3x2xa .ant-anchor-wrapper .ant-anchor-link {
   padding: 0 20px;
   line-height: 1.4;
   position: relative;
@@ -164,7 +164,7 @@ header.ant-layout-header {
 .ant-anchor-link-active > .ant-anchor-link-title {
   color: var(--color-7)!important;
 }
-/* .header .ant-anchor-link:before,
+.header .ant-anchor-link:before,
 .header .ant-anchor-link:after {
   content: '';
   background: var(--color-7);
@@ -175,28 +175,29 @@ header.ant-layout-header {
   left: 30%;
   opacity: 0;
   transition: all 0.3s linear;
-} */
+}
 
-/* .header .ant-anchor-link:after {
+.header .ant-anchor-link:after {
   left: auto;
   right: 30%;
-} */
+} 
 
-/* .header .ant-anchor-link.ant-anchor-link-active:before,
+ .header .ant-anchor-link.ant-anchor-link-active:before,
 .header .ant-anchor-link:hover:before {
   left: 5%;
   opacity: 1;
-} */
+} 
 
-/* .header .ant-anchor-link.ant-anchor-link-active:after,
+ .header .ant-anchor-link.ant-anchor-link-active:after,
 .header .ant-anchor-link:hover:after {
   right: 5%;
   opacity: 1;
-} */
+}
 .ant-anchor-link-title {
   color: var(--color-white) !important;
   font-size: 1rem !important;
   font-weight: bold !important;
+  text-decoration: none;
 }
 .ant-anchor-link-title:hover {
   color: var(--color-white);
@@ -496,9 +497,16 @@ picture .img-curriculo img {
 .ant-timeline-item-content p{
   color: var(--color-white);
 }
+/*********** Skill ***********/
 .bg-education {
   background-color: var(--color-2);
   padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+}
+.bg-skills {
+  margin-top: 5rem;
+  margin-bottom: 4rem;
 }
 .bg-education h3 {
   color: var(--color-8) ;
@@ -513,9 +521,12 @@ picture .img-curriculo img {
   justify-content: space-evenly;
 }
 .ant-card .ant-card-bordered {
-  min-height: 340px !important; 
+  min-height: 340px; 
 }
 /*********** PORTFOLIO ***********/
+.bg-portfolio {
+  padding-top: 2rem;
+}
 .card-container {
   display: flex;
   justify-content: space-evenly;
@@ -558,11 +569,12 @@ picture .img-curriculo img {
   background: url('../assets/footer.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 20rem;
+  height: 20rem !important;
+  /* padding-top: 8rem; */
 }
 @media (min-width: 768px) { 
   .bg-footer {
-    height: 20rem;
+    height: 20rem !important;
   }
 }
 .ant-layout-footer {

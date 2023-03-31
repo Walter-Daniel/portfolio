@@ -7,15 +7,16 @@ import logo from '../../helpers/cardImg';
 
 export const Navbar = () => {
 
-  const [visible, setVisible] = useState(false);
+  const [open, setOpen] = useState(false);
+  const [targetOffset, setTargetOffset] = useState();
 
   const showDrawer = () => {
-    setVisible(true);
+    setOpen(true);
+  };
+  const onClose = () => {
+    setOpen(false);
   };
 
-  const onClose = () => {
-    setVisible(false);
-  };
   return (
     <div className="container-fluid">
       <div className="header">
@@ -25,13 +26,36 @@ export const Navbar = () => {
         </div>
       </a>
         <div className="mobileHidden">
-          <Anchor targetOffset="65">
-            <Link href="#about" title="Acerca de mí" />
-            <Link href="#skills" title="Habilidades" />
-            <Link href="#education" title="Estudios" />
-            <Link href="#portfolio" title="Portfolio" />   
-            <Link href="#contact" title="Contacto" />   
-          </Anchor>
+          <Anchor
+            // targetOffset={targetOffset}
+            items={[
+              {
+                key: 'part-1',
+                href: '#about',
+                title: 'Acerca de mí',
+              },
+              {
+                key: 'part-2',
+                href: '#skills',
+                title: 'Habilidades',
+              },
+              {
+                key: 'part-3',
+                href: '#education',
+                title: 'Estudios',
+              },
+              {
+                key: 'part-4',
+                href: '#portfolio',
+                title: 'Portfolio',
+              },
+              {
+                key: 'part-5',
+                href: '#contact',
+                title: 'Contacto',
+              },
+            ]}
+          />
         </div>
         <div className="mobileVisible">
           <Button type="primary" className='btn-second' onClick={showDrawer}>
@@ -41,15 +65,38 @@ export const Navbar = () => {
             placement="right"
             title="Menú"
             onClose={onClose}
-            visible={visible}
+            open={open}
           >
-            <Anchor targetOffset="65">
-              <Link href="#about" title="Acerca de mí" />
-              <Link href="#skills" title="Habilidades" />
-              <Link href="#education" title="Estudios" />
-              <Link href="#portfolio" title="Portfolio" />
-              <Link href="#contact" title="Contacto" />   
-            </Anchor>
+            <Anchor
+            // targetOffset={targetOffset}
+            items={[
+              {
+                key: 'part-1',
+                href: '#about',
+                title: 'Acerca de mí',
+              },
+              {
+                key: 'part-2',
+                href: '#skills',
+                title: 'Habilidades',
+              },
+              {
+                key: 'part-3',
+                href: '#education',
+                title: 'Estudios',
+              },
+              {
+                key: 'part-4',
+                href: '#portfolio',
+                title: 'Portfolio',
+              },
+              {
+                key: 'part-5',
+                href: '#contact',
+                title: 'Contacto',
+              },
+            ]}
+          />
           </Drawer>
         </div>
       </div>

@@ -33,7 +33,7 @@ export const Skills = () => {
                         <p>Mongoose</p>
                         <p>JASON Web Token</p>
                         <p>MongoDB</p>
-                        <p>SQL</p>
+                        <p>MySQL</p>
                         <p>Bcryptjs</p>
                     </Card>
                     <Card title="Herramientas" style={{ width: 260 }}>

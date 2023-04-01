@@ -164,7 +164,7 @@ header.ant-layout-header {
 .ant-anchor-link-active > .ant-anchor-link-title {
   color: var(--color-7)!important;
 }
-.header .ant-anchor-link:before,
+/* .header .ant-anchor-link:before,
 .header .ant-anchor-link:after {
   content: '';
   background: var(--color-7);
@@ -192,7 +192,7 @@ header.ant-layout-header {
 .header .ant-anchor-link:hover:after {
   right: 5%;
   opacity: 1;
-}
+} */
 .ant-anchor-link-title {
   color: var(--color-white) !important;
   font-size: 1rem !important;

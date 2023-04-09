@@ -26,15 +26,14 @@ export const FooterComponent = () => {
                 </li>
             </ul>
           </div>
-        
+          <div className="contact-footer">
+          <p>Email: walterdcarrizo.19@gmail.com</p>
+        </div>
         <div className="logo-footer">
           <img src={logo.logo} alt="logo Walter Daniel Carrizo" />   
           <p>Copyrights © todos los derechos reservados</p>
         </div>
-        <div className="contact-footer">
-          <p>Tel: +543816529783</p>
-          <p>Email: walterdcarrizo.19@gmail.com</p>
-        </div>
+        
       </div>
     </div>
   )

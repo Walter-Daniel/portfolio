@@ -6,7 +6,7 @@ export const DropdownCard = ({ frontend, backend }) => {
     <div>
         <DropdownButton
             size="sm"
-            title="Drop small"
+            title="Repositorio"
             variant='outline-warning'
           >{
             ( backend === null ) ? <Dropdown.Item href={frontend} target="_blank">Frontend</Dropdown.Item>

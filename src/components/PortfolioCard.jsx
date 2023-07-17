@@ -14,6 +14,7 @@ export const PortfolioCard = () => {
                 hoverable
                 style={{
                 width: 300,
+                minHeight:350 ,
                 margin: 10
                 }}
                 
